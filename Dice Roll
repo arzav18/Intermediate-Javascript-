@@ -1,0 +1,6 @@
+//Javascript program to get a number between 1 & 6 on a dice
+
+var n = Math.random();
+n = n*6;
+n = Math.floor(n) + 1;
+console.log(n);
