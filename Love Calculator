@@ -1,0 +1,8 @@
+//The following Javascript programs calculates the love percentage of two people.
+
+var x = prompt("Enter the name of the 1st person:");
+var y = prompt("Enter the name of the 2nd person:");
+var n = Math.random();
+n = n*99;
+n = Math.floor(n) + 1;
+alert(x + " and " + y + " have a love percentage of " + n + " %");
